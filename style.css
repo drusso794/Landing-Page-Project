@@ -14,7 +14,6 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     font-family: "Roboto";
     flex-shrink: 0;
 }
@@ -47,11 +46,6 @@ a {
     color: #e5e7eb;
 }
     
-.footer {
-    display: flex;
-}
-
-
 /* title and image placeholder */
 
 .containercontainer {
@@ -195,6 +189,7 @@ img {
     gap: 50px;
     padding-left: 50px;
     padding-right: 50px;
+    border-radius: 10px;
 }
 
 .call {
@@ -202,3 +197,28 @@ img {
     font-weight: 900;
     font-size: 20px;
 }
+
+.second-button {
+    color: white;
+    background-color: #3882f6;
+    border-color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.sign {
+    color: #e5e7eb;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding: 50px;
+}
+
