@@ -1,3 +1,11 @@
+/* logo and links */
+
+html {
+    overflow: scroll;
+    height: 100%;
+    margin: auto;
+}
+
 html, body {
     margin: 0;
     height: 100%;
@@ -8,6 +16,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: "Roboto";
+    flex-shrink: 0;
 }
 
 .header {
@@ -27,7 +36,7 @@ body {
 ul {
     display: flex;
     list-style-type: none;
-
+    
 }
 
 
@@ -37,14 +46,18 @@ a {
     text-decoration: none;
     color: #e5e7eb;
 }
-
+    
 .footer {
     display: flex;
 }
 
+
+/* title and image placeholder */
+
 .containercontainer {
     display: flex;
     gap: 100px;   
+    padding: 100px;
 }
 
 .h2container {
@@ -89,9 +102,103 @@ a {
     background-color: #3882f6;
     padding: 5px 15px;
     width: 100px;
+    height: 40px;
+    border-radius: 10px;
 }
 
 .subtext {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+/* pic block */
+
+img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.pic-container {
+    display: flex;
+    text-align: center;
+    gap: 125px;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.grayblock {
+    display: fex;
+    justify-content: center;
+    align-items: center;
+}
+
+.random {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding-top: 30px;
+}
+
+.text {
+    padding-top: 10px;
+}
+
+/* quote block */
+.quote-block {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+    width: 830px;
+}
+
+.credit {
+    font-size: 20px;
+
+    font-weight: 900;
+    color: #1f2937;
+    padding-left: 525px;
+}
+
+/* call to action */
+
+.call_to_action {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    padding: 100px;
+}
+
+.blue_block {
+    display: flex;
+    background-color: #3882f6 ;
+    align-items: center;
+    gap: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.call {
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
 }
